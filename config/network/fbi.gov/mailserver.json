@@ -2,13 +2,31 @@
     {
         "from": "admin",
         "to": ["silve#0083", "birdie#3316", "temp#7154"],
-        "title": "Maintenance in all servers",
-        "body": "This message is for all divisions of the bureau.  Starting today, the servers may suffer instability due to the latest maintenance measures. Data compromise expected.   admin"
+        "title": "维护声明",
+        "body": "此消息适用于当局诸部门。自今日始，由于维护措施-310的实施，服务器稳定性可能受损。   admin"
     },
     {
         "from": "silve#0083",
         "to": ["temp#7154"],
-        "title": "Maintenance in all servers",
-        "body": "This message is for all divisions of the bureau.  Starting today, the servers may suffer instability due to the latest maintenance mesures.    admin"
+        "title": "关于约翰及莎拉·贝尔福",
+        "body": "约翰及莎拉·贝尔福被列为潜在国内激进恐怖分子。据国务院网络载，约·贝领导原教旨主义基督教会“逾越天使教会”，司神父一职。逾越天使教会网站刊有大量无政府主义言论，并称当局为“狡诈蛇脑”。他们支持非暴力颠覆政权雨原教旨主义神权政府。逾越天使教派中已知的成员包括白人至上主义者、民兵组织成员、生存主义者，多人曾获与持有非法武器相关的指控。然亦无重大犯罪记录。另：贝尔福夫妇于2012年合法购入过一小批枪支。ATF曾屡次调查他们，未查获非法武器。      Silve"
+    },
+    {
+        "from": "silve#0083",
+        "to": ["temp#7154", "birdie#3316"],
+        "title": "Not now.",
+        "body": "贝尔福夫妇在教会网站上公开宣称受当局持续迫害。你们最好知道：我们介意我们的名声。贝尔福是守法公民——名义上。事实上，他们受到多个政治利益团体的金钱援助。小子们，管好你们的屁股，别招惹他们。     Silve"
+    },
+    {
+        "from": "silve#0083",
+        "to": [""],
+        "title": "死者身份",
+        "body": "ATF称死者为乔治·刘易斯顿。退役ATF探员。查获过数个恐怖组织。    Silve"
+    },
+    {
+        "from": "silve#0083",
+        "to": [""],
+        "title": "关于约翰·贝尔福",
+        "body": "情报请求获批。约·贝近十五年经常以传教为由前往肯尼亚内陆，涉嫌为政治组织“红色号角”提供物资。证据尚不明朗。 Silve"
     }
 ]
