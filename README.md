@@ -1,6 +1,6 @@
 # Email Reader Terminal for tabletop RPGs
 
-![Email Terminal Gif](docs/email_terminal.gif)
+![Email Terminal Gif](email_terminal.gif)
 
 This is a simple, read-only, terminal experience for tabletop RPGs.
 You can fork the project and change the code for your own configurations, like terminal name (or sector/station/node if sci-fi), image and messages.
@@ -41,19 +41,19 @@ You can now configure and access extra servers at `network.json` to login via `s
 Each server will treat their respective users (and mail messages) separately.
 
 ---
-![Telnet v1](docs/telnet.gif)
+![Telnet v1](telnet.gif)
 
 You can now configure custom software at `software.json` to use it.
 They're just simple simulations, but I hope you enjoy it!
 
 ---
-![Custom Software v1](docs/custom_software.gif)
+![Custom Software v1](custom_software.gif)
 
 The `help` command has been improved.
 You can now show further help instructions for internal commands.
 
 ---
-![Help v1](docs/help.gif)
+![Help v1](help.gif)
 
 ## How to Configure
 
@@ -99,7 +99,7 @@ Note however that, once you login to the server, the username will change.
 }
 ```
 ---
-![Example of a Sci-Fi / Space Opera Terminal](docs/scifi_example.png)
+![Example of a Sci-Fi / Space Opera Terminal](scifi_example.png)
 
 ```json
 {
@@ -117,7 +117,7 @@ Note however that, once you login to the server, the username will change.
 }
 ```
 ---
-![Example of a modern-ish terminal](docs/fbi_example.png)
+![Example of a modern-ish terminal](fbi_example.png)
 
 ### userlist.json
 
@@ -184,7 +184,7 @@ In the body, you can break the line with a double space.
 You can create your own custom software.
 At the moment you can just create simple software that will output some messages simulating an operation.
 
-You just need to create a `software.json` file describing your programs ([example](config/software.json)):
+You just need to create a `software.json` file describing your programs ([example](software.json)):
 
 - `message`: the actual message to be displayed as an emulation of the software running
 - `location` (optional): specify which servers will have access to the software (= where it is installed)
@@ -228,7 +228,7 @@ You can also include **images** among the content displayed:
     ]
 ```
 
-![](docs/software-image.png)
+![](software-image.png)
 
 #### Image effects
 
@@ -238,9 +238,9 @@ Special effects can be added to images by adding the `glitch` or `particle` CSS 
 "message": "<img src='config/network/11.152.9.6/tech.jpg' style='width: 10rem' class='glitch'>"
 ```
 
-![](docs/demo-image-glitch.gif)
+![](demo-image-glitch.gif)
 
-The [config/software.json](config/software.json) file provided includes demonstrations of those effects in the `demo.exe` command.
+The [software.json](software.json) file provided includes demonstrations of those effects in the `demo.exe` command.
 
 #### Text desync
 
@@ -274,7 +274,7 @@ A progressive "hackish" reveal effect can be added to text by adding the `hack-r
 "message": "<p class='hack-reveal'>All your base are belong to us</p>"
 ```
 
-![](docs/demo-text-hack-reveal.gif)
+![](demo-text-hack-reveal.gif)
 
 The animation can be fine-tuned through `data-` attributes:
 
@@ -317,7 +317,7 @@ function hello(args) {
 
 You can now type this in the terminal: `hello Lucas`
 
-Detailed examples are available in [config/software.js](config/software.js).
+Detailed examples are available in [software.js](software.js).
 The `identify` program demonstrates how to handle interactive user input by having a function returning this type of object:
 ```javascript
 {
@@ -339,17 +339,17 @@ As this is a simple terminal emulation, you can't delete mails or mark as read. 
 
 To login you need to enter `user@password`
 
-![How to login.](docs/login1.png)
+![How to login.](login1.png)
 ---
 
 Note the change in the terminal username
 
-![Note the change in the terminal username.](docs/login2.png)
+![Note the change in the terminal username.](login2.png)
 ---
 
 How to list and read mails
 
-![Mail and Read functions.](docs/mail_n_read.png)
+![Mail and Read functions.](mail_n_read.png)
 
 ### History
 
@@ -381,13 +381,13 @@ You can try `help` to see a list of other functions available. The `clear` funct
 As I've said, you can use Github Pages to do that for you.
 If you're not used to Github, first create a Github user by registering in [Github](github.com), so you can "fork" the project to your account by accessing the project page [email_terminal](github.com/jacksonbenete/email_terminal) and by clicking in the "fork" button.
 
-![How to Fork a project.](docs/fork1.png)
+![How to Fork a project.](fork1.png)
 
 Note that those two in red are the only two steps you need to take to get your terminal up and running. You need to click the Fork button, and after a few seconds, the project will be there as one of your own repositories, and then you click the Settings button.
 
 In the settings page, scroll down to the Github Pages section and select the source as the master branch. 
 
-![Github Pages on Settings.](docs/fork2.png)
+![Github Pages on Settings.](fork2.png)
 
 After a few seconds, you will be able to access your terminal at username.github.io/email_terminal (i.e. jacksonbenete.github.io/email_terminal).
 
